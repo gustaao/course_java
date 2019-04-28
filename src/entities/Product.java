@@ -1,16 +1,16 @@
 package entities;
 
 public class Product {
-	
+
 	private String name;
 	private double price;
-	
-	public Product(){
-		
+
+	public Product() {
+
 	}
 
 	public Product(String name, double price) {
-		
+
 	}
 
 	public String getName() {
@@ -28,7 +28,8 @@ public class Product {
 	public void setPrice(double price) {
 		this.price = price;
 	}
-	
 
-	
+	public String priceTag() {
+		return getName() + " $ " + getPrice();
+	}
 }

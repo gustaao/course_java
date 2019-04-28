@@ -14,7 +14,6 @@ public class Pensionato {
 		Locatarios[] quarto = new Locatarios[10];
 		
 		System.out.print("How many rooms will be rented? ");
-		int n = sc.nextInt();
 		
 		for (int i = 1; i < quarto.length; i++) {
 			System.out.println();

@@ -44,15 +44,10 @@ public class OrderItem {
 		return price * quantity;
 	}
 
-	@Override
-	public String toString() {
-		return  product.getName() +
-			    " $ " +
-				
-				
-				
-				 "OrderItem [quantity=" + quantity + ", price=" + price + ", product=" + product + "]";
-	}
+//	public void ToString() {	
+//		product.getName() +
+//			    " $ " + "OrderItem [quantity=" + quantity + ", price=" + price + ", product=" + product + "]";
+//	}
 	
 	
 

@@ -1,17 +1,13 @@
 package course;
 
-import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 import java.util.Scanner;
-
-import entities.Order;
-import entities.OrderItem;
-import entities.Product;
 import entities.Client;
-import entities_enums.*;
+import entities.Order;
+import entities_enums.OrderStatus;
 
 public class Excercise10 {
 
@@ -47,13 +43,13 @@ public class Excercise10 {
 			System.out.println("Enter #"+i+" item data:  ");
 			
 			System.out.print("Product name:");
-			String productName = sc.next();
+			//String productName = sc.next();
 
 			System.out.print("Product price: ");
-			double productPrice = sc.nextDouble();
+			//double productPrice = sc.nextDouble();
 			
 			System.out.print("Quantity: ");
-			int productQtd = sc.nextInt();
+			//int productQtd = sc.nextInt();
 			//item = new OrderItem(productQtd, productPrice, new Product(productName,productPrice));
 			
 		
